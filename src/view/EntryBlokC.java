@@ -29,6 +29,9 @@ public class EntryBlokC extends javax.swing.JFrame {
     private void initComponents() {
 
         buttonGroup1 = new javax.swing.ButtonGroup();
+        buttonGroup2 = new javax.swing.ButtonGroup();
+        buttonGroup3 = new javax.swing.ButtonGroup();
+        buttonGroup4 = new javax.swing.ButtonGroup();
         jPanel2 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
@@ -120,6 +123,7 @@ public class EntryBlokC extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("<html><div style='width:200px;'>C2. Persen Penurunan Pendapatan Perusahaan Akibat Covid-19 :</div></html>");
 
+        buttonGroup2.add(jRadioButton4);
         jRadioButton4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jRadioButton4.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton4.setText("<=20%");
@@ -129,6 +133,7 @@ public class EntryBlokC extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup2.add(jRadioButton5);
         jRadioButton5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jRadioButton5.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton5.setText("21 - 40%");
@@ -138,14 +143,17 @@ public class EntryBlokC extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup2.add(jRadioButton6);
         jRadioButton6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jRadioButton6.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton6.setText("41 - 60%");
 
+        buttonGroup2.add(jRadioButton7);
         jRadioButton7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jRadioButton7.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton7.setText("61 - 80%");
 
+        buttonGroup2.add(jRadioButton8);
         jRadioButton8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jRadioButton8.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton8.setText("81 - 100%");
@@ -160,14 +168,17 @@ public class EntryBlokC extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup3.add(jRadioButton9);
         jRadioButton9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jRadioButton9.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton9.setText("41 - 60%");
 
+        buttonGroup3.add(jRadioButton10);
         jRadioButton10.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jRadioButton10.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton10.setText("61 - 80%");
 
+        buttonGroup3.add(jRadioButton11);
         jRadioButton11.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jRadioButton11.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton11.setText("81 - 100%");
@@ -176,6 +187,7 @@ public class EntryBlokC extends javax.swing.JFrame {
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("<html><div style='width:220px;'>C4. Persen Peningkatan Pendapatan Perusahaan Akibat Covid-19 :</div></html>");
 
+        buttonGroup3.add(jRadioButton12);
         jRadioButton12.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jRadioButton12.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton12.setText("<=20%");
@@ -185,6 +197,7 @@ public class EntryBlokC extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup3.add(jRadioButton13);
         jRadioButton13.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jRadioButton13.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton13.setText("21 - 40%");
@@ -194,6 +207,7 @@ public class EntryBlokC extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup3.add(jRadioButton14);
         jRadioButton14.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jRadioButton14.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton14.setText(">100%");
@@ -217,18 +231,22 @@ public class EntryBlokC extends javax.swing.JFrame {
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("<html><div style='width:250px;'>C3. Besaran Spesifik Persen Penurunan Pendapatan Perusahaan Akibat Covid-19 (Opsional):</div></html>");
 
+        buttonGroup4.add(jRadioButton15);
         jRadioButton15.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jRadioButton15.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton15.setText("Penambahan Modal Kerja");
 
+        buttonGroup4.add(jRadioButton16);
         jRadioButton16.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jRadioButton16.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton16.setText("Penambahan Tenaga Kerja");
 
+        buttonGroup4.add(jRadioButton17);
         jRadioButton17.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jRadioButton17.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton17.setText("Peningkatan Teknologi");
 
+        buttonGroup4.add(jRadioButton18);
         jRadioButton18.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jRadioButton18.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton18.setText("Kapasitas Produksi Meningkat");
@@ -464,6 +482,9 @@ public class EntryBlokC extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.ButtonGroup buttonGroup2;
+    private javax.swing.ButtonGroup buttonGroup3;
+    private javax.swing.ButtonGroup buttonGroup4;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;

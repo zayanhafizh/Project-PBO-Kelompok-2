@@ -44,7 +44,7 @@ public class AdminBlokC extends javax.swing.JFrame {
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel2.setBackground(new java.awt.Color(51, 204, 255));
+        jPanel2.setBackground(new java.awt.Color(108, 145, 220));
         jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -145,7 +145,7 @@ public class AdminBlokC extends javax.swing.JFrame {
         jButton2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel2.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 120, 100, 40));
 
-        jButton3.setBackground(new java.awt.Color(0, 0, 204));
+        jButton3.setBackground(new java.awt.Color(255, 102, 0));
         jButton3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Edit");

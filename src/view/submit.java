@@ -33,7 +33,7 @@ public class submit extends javax.swing.JPanel {
         setMaximumSize(new java.awt.Dimension(2147483647, 2147483647));
         setMinimumSize(new java.awt.Dimension(1530, 770));
 
-        jPanel1.setBackground(new java.awt.Color(51, 0, 153));
+        jPanel1.setBackground(new java.awt.Color(108, 145, 220));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/SC-200 Exam_ A First-Hand Experience.jpeg"))); // NOI18N
 

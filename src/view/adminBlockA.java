@@ -34,7 +34,7 @@ public class adminBlockA extends javax.swing.JPanel {
         addButton = new javax.swing.JButton();
         deleteButton = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(51, 204, 255));
+        setBackground(new java.awt.Color(108, 145, 220));
         setMaximumSize(new java.awt.Dimension(2147483647, 2147483647));
         setMinimumSize(new java.awt.Dimension(1530, 770));
 
@@ -46,6 +46,7 @@ public class adminBlockA extends javax.swing.JPanel {
                 "Nama Perusahaan", "Kedudukan Respoenden", "Usia Responden", "Jenis Kelamin", "Provinsi", "Kabupaten/Kota", "Product Utama", "Product Utama Lain", "Sektor Usaha", "Omset", "Jumlah Pegawai Sebelum Covid", "Jumlah Pegawai Sesudah Covid", "Operasi Usaha"
             }
         ));
+        jTable1.setShowGrid(true);
         jScrollPane1.setViewportView(jTable1);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
