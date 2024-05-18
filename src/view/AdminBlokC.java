@@ -4,6 +4,8 @@
  */
 package view;
 
+import javax.swing.table.JTableHeader;
+
 /**
  *
  * @author farha
@@ -31,6 +33,8 @@ public class AdminBlokC extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
+        JTableHeader header = jTable1.getTableHeader();
+        header.setPreferredSize(new java.awt.Dimension(header.getPreferredSize().width, 50));
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();

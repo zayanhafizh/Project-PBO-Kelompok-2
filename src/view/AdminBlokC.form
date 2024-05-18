@@ -162,6 +162,9 @@
                   <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
                 </Property>
               </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="JTableHeader header = jTable1.getTableHeader();&#xa;header.setPreferredSize(new java.awt.Dimension(header.getPreferredSize().width, 50));"/>
+              </AuxValues>
             </Component>
           </SubComponents>
         </Container>
