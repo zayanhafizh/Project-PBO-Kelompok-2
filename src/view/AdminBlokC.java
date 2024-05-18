@@ -8,7 +8,7 @@ import javax.swing.table.JTableHeader;
 
 /**
  *
- * @author farha
+ * @author Nazlya
  */
 public class AdminBlokC extends javax.swing.JFrame {
 
