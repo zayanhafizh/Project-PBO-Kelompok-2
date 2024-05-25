@@ -1,10 +1,19 @@
 package model;
 
 public class Responden {
+    private int idResponden;
     private String nama;
     private String jabatan;
     private int umur;
 
+    public int getIdResponden() {
+        return idResponden;
+    }
+
+    public void setIdResponden(int idResponden) {
+        this.idResponden = idResponden;
+    }
+    
     public String getNama() {
         return nama;
     }
