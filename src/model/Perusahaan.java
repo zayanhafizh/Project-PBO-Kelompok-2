@@ -1,6 +1,7 @@
 package model;
 
 public class Perusahaan {
+    private int idPerusahaan;
     private String namaUsaha;
     private String provinsi;
     private String kota;
@@ -11,6 +12,14 @@ public class Perusahaan {
     private int jmlPegawaiSblm;
     private int jmlPegawaiSkrg;
     private String operasi;
+    
+    public int getIdPerusahaan() {
+        return idPerusahaan;
+    }
+
+    public void setIdPerusahaan(int idPerusahaan) {
+        this.idPerusahaan = idPerusahaan;
+    }
 
     public String getNamaUsaha() {
         return namaUsaha;
