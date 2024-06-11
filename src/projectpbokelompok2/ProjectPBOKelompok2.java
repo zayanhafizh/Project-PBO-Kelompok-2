@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package projectpbokelompok2;
+import static database.Connection_db.getConnection;
 import model.User;
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -32,7 +33,7 @@ public class ProjectPBOKelompok2 {
         List<User> userList = new ArrayList<>();
         String sql = "SELECT * FROM user";
         
-       try(Connection conn = connect();
+       try(Connection conn = getConnection();
         Statement stmt = conn.createStatement();
         ResultSet rs = stmt.executeQuery(sql)) {
            //Loop through result set
@@ -44,17 +45,5 @@ public class ProjectPBOKelompok2 {
            System.out.println(e.getMessage());
        }
        
-    }
-    
-    public Connection connect() {
-        String url = "jdbc:sqlite:Kelompok6Database.db";
-        Connection conn = null;
-        try {
-            conn = DriverManager.getConnection(url);
-            
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-        }
-        return conn;
     }
 }
